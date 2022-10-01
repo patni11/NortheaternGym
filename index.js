@@ -87,7 +87,7 @@ cron.schedule(
 // A Cron job that starts weekends at 8:00
 // starts the main module to control scraper and saving
 cron.schedule(
-  "0 48 17 * * 6-7",
+  "0 0 6 * * 6-7",
   async () => {
     console.log("starting weekend");
     main();
