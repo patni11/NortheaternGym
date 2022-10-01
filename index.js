@@ -32,7 +32,7 @@ function main() {
   }
   console.log("running main");
   const HalfHourJob = cron.schedule(
-    "0 30 * * * *",
+    "*/30 * * * *",
     async () => {
       try {
         console.log("Running cron");
@@ -48,7 +48,7 @@ function main() {
         await save("MarinoCardio", personCount[3], roundedTime, day);
         await save("MarinoTrack", personCount[4], roundedTime, day);
 
-        if (["Mon", "Tue", "Wed", "Thu", "Fri"].includess(day)) {
+        if (["Mon", "Tue", "Wed", "Thu", "Fri"].includes(day)) {
           if (roundedTime >= Timings.SquashWeekdayStartTime) {
             await save("SquashBusters", personCount[5], roundedTime, day);
           }
@@ -87,7 +87,7 @@ cron.schedule(
 // A Cron job that starts weekends at 8:00
 // starts the main module to control scraper and saving
 cron.schedule(
-  "00 30 5 * * 6-7",
+  "0 48 17 * * 6-7",
   async () => {
     console.log("starting weekend");
     main();

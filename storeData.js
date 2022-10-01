@@ -12,7 +12,7 @@ async function save(gym, personCount, roundedTime, day) {
 
       const newCount = gymData[day][roundedTime]["Count"] + 1;
       const newAverage =
-        (gymData[day][roundedTime]["Average"] + personCount) / newCount;
+        (gymData[day][roundedTime]["Average"] + personCount) / 2;
 
       gymData[day][roundedTime]["Count"] = newCount;
       gymData[day][roundedTime]["Average"] = Math.floor(newAverage);
