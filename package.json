@@ -1,0 +1,13 @@
+{
+  "name": "gym",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^18.0.2",
+    "tesseract.js": "^3.0.2",
+    "tesseract.js-core": "^3.0.2"
+  }
+}
