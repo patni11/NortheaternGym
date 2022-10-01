@@ -1,22 +1,19 @@
 Live Facility Counts
 Select Facility: Al .
 Location Count (Circle Chart)
-22% 15%
-~ N~
+17% \50%
 Marino Center - 2nd Floor Marino Center - Gymnasium
 (Open) (Open)
-Last Count: 23 Last Count: 9
-Updated: 09/30/2022 02:29 PM Updated: 09/30/2022 02:29 PM
-58% 22%
-S~ S~
+Last Count: 18 Last Count: 30
+Updated: 09/30/2022 11:36 PM Updated: 09/30/2022 11:36 PM
+\46% 19%
 Marino Center - 3rd Floor Weight Room Marino Center - 3rd Floor Select & Cardio
 (Open) (Open)
-Last Count: 38 Last Count: 20
-Updated: 09/30/2022 02:26 PM Updated: 09/30/2022 02:26 PM
-20% 30%
-N— S~
+Last Count: 30 Last Count: 17
+Updated: 09/30/2022 11:33 PM Updated: 09/30/2022 11:33 PM
+\30% 13%
 Marino Center - Track ‘SquashBusters - 4th Floor
 (Open) (Open)
-Last Count: 4 Last Count: 18
-Updated: 09/30/2022 02:29 PM Updated: 09/30/2022 12:59 PM
+Last Count: 6 Last Count: 8
+Updated: 09/30/2022 11:33 PM Updated: 09/30/2022 08:40 PM
 Powered by Connect2Concepts.

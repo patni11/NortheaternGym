@@ -1,15 +1,6 @@
 const scraper = require("./scraper");
 const fs = require("fs");
-const {
-  gymToFile,
-  timeStringToMinutes,
-  minutesToTimeString,
-  csvFields,
-  dayOptions,
-  timeOptions,
-  roundToNearest30,
-  allGyms,
-} = require("./constants");
+const { gymToFile } = require("./constants");
 
 async function save(gym, personCount, roundedTime, day) {
   console.log(`Saving ${gym} file`);
